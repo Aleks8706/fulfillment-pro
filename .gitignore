@@ -1,0 +1,56 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# Environment files (НИКОГДА не коммитьте реальные секреты!)
+.env
+.env.local
+.env.production
+*.pem
+*.key
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Build outputs
+dist/
+build/
+*.min.js
+
+# Database
+*.sqlite
+*.sqlite3
+
+# Docker
+!.dockerignore
+docker-compose.override.yml
+
+# Secrets & credentials
+*.pem
+*.crt
+*.key
+secrets/
+
+# Local development
+*.local.html
+coverage/
+.nyc_output/
+
+# macOS
+.DS_Store
+
+# Windows
+ehthumbs.db
+Desktop.ini
